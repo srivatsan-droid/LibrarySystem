@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="toAdd">
+        <header>
+            <h1>Library Global</h1>
+        </header>
+        <label>Enter the Title <br><input type="text" placeholder="title" id="title"></label><br><br>
+        <label>Enter the Author <br><input type="text" placeholder="author" id="author"></label><br><br>
+        <label>Pages <br><input type="text" placeholder="Pages" id="pages"></label><br><br>    
+        <label><input type="checkbox" id="read">Read</label><br><br>
+        <button type="submit" id="submitButton" onClick="submitBook()">Submit</button>
+
+        <!-- Placeholder to display the list of books -->
+        <div id="bookList"></div>
+    </div> 
+    <script src="script.js">
+    </script>
+</body>
+</html>
